@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.quotesApp{
+    width: 100%;
+    min-width: 550px;
+    height: 100vh;
+    padding: 1.3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.quoteBox{
+    /* position: relative; */
+    min-width: 550px;
+    max-width: 650px;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Oooh Baby', cursive;
+    font-weight: 300;
+    padding: 2rem;
+    margin-bottom: 1rem;
+    background-color: rgba(255, 255, 255, 0.774);
+    border-radius: 15px;
+    box-shadow: 2px 2px 8px rgba(255, 255, 255, 0.774);
+}
+.quoteBox  span:nth-child(1){
+    font-size: 2.3rem;
+    margin-right: 1rem;
+}
+.quote{
+    display: inline;
+}
+.author{
+    display: block;
+    text-align: right;
+    margin-right: 1.8rem;
+    margin-top: 2rem;
+}
+.handleBtn{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 1.5rem;
+    color: rgba(255, 255, 255, 0.774);
+    border: 1px solid rgba(255, 255, 255, 0.774);
+    box-shadow: 2px 2px 8px rgba(255, 255, 255, 0.774);
+
+}
